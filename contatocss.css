@@ -1,0 +1,273 @@
+@font-face {
+   font-family: 'Day Roman Light';
+   src: url('DAYROM__.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Roboto-Light';
+   src: url('Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Cinzel';
+   src: url('CinzelDecorative-Regular.olf') format('truetype');
+}
+
+body{
+	padding: 0;
+	margin:0;
+	background-color: #454658;
+	
+}
+
+/*Menu do portfólio*/
+
+#top{
+	position: absolute;
+	left: 540px;
+}
+
+#menu {
+	list-style: none;
+	background-color: #292638;
+	text-align: left;
+	padding: 0;
+	margin: -4;
+}
+
+.logo{
+	/*text-decoration: underline;*/
+	text-align: left;
+	float: left;
+	margin-top: -15px;
+}
+
+.logo h1{
+	color: #21c1da;
+	margin-left: 30px;
+	font-family: Cinzel;
+	margin-bottom: 10px;
+}
+
+
+ nav ul {
+ 	height: 50px;
+	list-style: none;
+	background-color: #292638;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	margin-right: 30px;
+}
+
+nav li {
+	font-family: 'Roboto-Light';
+	font-size: 1.3em;
+	line-height: 40px;
+	height: 40px;
+}
+
+nav a {
+	text-decoration: none;
+	/*width: 130px;*/
+	text-align: center;
+	color: #fff;
+	display: block;
+	transition: 1s background-color;
+	/*position: absolute;*/
+
+}
+
+nav li:hover {
+	background-color: #454658;
+	text-align: center;
+}
+
+nav a:focos {
+	background-color: #fff;
+	color:  #444;
+	cursor:  default;
+}
+
+@media screen and (min-width: 600px){
+	nav li {
+		width: 130px;
+		height: 50px;
+		line-height: 50px;
+		font-size:1.3em;
+	}
+	nav li {
+		display: inline-block;
+		margin-right: -4px;
+
+	}
+}
+
+/* banner*/
+
+#banner{
+	position: relative;
+}
+
+#banner img{
+	height:auto;
+	width:100%
+	margin: 0;
+
+	/*padding: 10px 200px;*/
+}
+
+.alinhar{
+	margin: 0px;
+	color: #21c1da;
+}
+
+/*#descricao{
+	width: 30%;
+	float: right;
+}*/
+
+.descricao{
+	margin: none;
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	font-size: 18px;
+}
+
+#ola{
+	text-align: right;
+	padding-right: 245px;
+	font-family: Day Roman Light;
+}
+
+.social img{
+	height: 30px;
+	width: 30px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+/*Entre em contato*/
+
+hr{
+	height: 50px;
+	background-color:#292638;
+	border: none;
+	margin: 0px;
+}
+
+#envia{
+	text-align: center;
+	font-family: 'Day Roman Light';
+	color: #21c1da;
+}
+
+#contato{
+	text-align: center;
+}
+
+#contado div{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#nome{
+	width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Day Roman Light;
+}
+
+#email{
+	width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Day Roman Light;
+}
+
+#mensagem{
+	width: 50%;
+	height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Day Roman Light;
+}
+
+#botao{
+	width: 50%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    resize: none;
+    background-color: #292638;
+    font-family: Day Roman Light;
+}
+
+#botao:hover/*:not(.active)*/ {
+    background-color: #5b5c72
+}
+
+.informacoes{
+	overflow: auto;
+}
+
+.info{
+	float: left;
+	margin-left: 340px;
+	font-family: Day Roman Light;
+}
+
+.info2{
+	float: right;
+	margin-right: 340px;
+	font-family: Day Roman Light;
+	
+}
+
+.outro_titulo{
+	color:#21c1da;
+}
+
+.info p{
+	color: #fff;
+}
+
+.info2 p{
+	color: #fff;
+}
+
+/*Rodapé*/
+
+.rodape p {
+	color: #fff;
+	margin: 0px;
+	font-family: Day Roman Light;
+}
+
+.rodape{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: #454658;
+	line-height: 50px;
+}
